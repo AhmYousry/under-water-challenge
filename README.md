@@ -15,7 +15,7 @@ two blue lines and the average slope.
 -------------------------------------------------------------------
 
 
-##Detect.py Algorithm
+##detect Yolo v3.py Algorithm
 
 i'm using a python library named "ImageAI" and it use "Keras" and "Tensorflow" and use Darknet layers
 
