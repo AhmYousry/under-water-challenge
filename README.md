@@ -10,13 +10,24 @@ starting at one end of the transect and moving to the other end of the transect.
 the transect is defined as the ROV directly above the black length of PVC pipe on either end of the coral
 reef."
 
-ok. what we did for that ?
+ok. what our code do ?
 
-
-our code :
 
 
 Line tracking underwater , used a python library named "Open CV" to detect lines using filter “gaussianblur” and  "mask" function ,then “threshold” function and finally used “HoughLines” function 
+
+ok why we using filter ""guassianblur" ?
+
+to make a filter 2d and reduce noise , then after using "guassianblur" we need to normalize our photo and change the light 
+
+good , what now ?
+
+now we using "mask" function to detect blue color "color of track" 
+
+then use "threshold" function to use "HoughLines" function to draw our lines
+
+and finally we can see the track detected and make our control
+
 
 
 
