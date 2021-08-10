@@ -3,11 +3,7 @@
 ##Line tracking underwater.py Algorithm
 
 camera is used to follow the
-tracks autonomously. used a python library
-named "Open CV" to detect lines using the "mask" function,
-which filters out all but blue lines. Using mathematical
-calculations, we were able to get the distance between the
-two blue lines and the average slope.
+tracks autonomously. Line tracking underwater , used a python library named "Open CV" to detect lines using filter “gaussianblur” and  "mask" function ,then “threshold” function and finally used “HoughLines” function 
 
 
 
@@ -27,7 +23,7 @@ model to detect objects within the taken screenshot
 
 accuracy 97%
 
-dataset for training : 2037 photo 
-test : 99 photo
+dataset for training : 2037 photo ,
+test : 99 photo ,
 valid : 197 photo
 
