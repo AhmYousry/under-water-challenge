@@ -17,7 +17,17 @@ two blue lines and the average slope.
 
 ##Detect.py Algorithm
 
+i'm using a python library named "ImageAI" and it use "Keras" and "Tensorflow" and use Darknet layers
+
 YOLOv3 Keras R-CNN
 (Region-Based Convolution Neural Network) trained
 model to detect objects within the taken screenshot
+
+100 Epoch
+
+accuracy 97%
+
+dataset for training : 2037 photo 
+test : 99 photo
+valid : 197 photo
 
