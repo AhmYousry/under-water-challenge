@@ -1,6 +1,6 @@
 # under-water-challenge
 
-##Line tracking underwater.py Algorithm
+## Line tracking underwater.py Algorithm
 
 what the task want ? 
 
@@ -30,12 +30,7 @@ and finally we can see the track detected and make our control
 
 
 
-
-
--------------------------------------------------------------------
-
-
-##detect Yolo v3.py Algorithm
+## detect Yolo v3.py Algorithm
 
 i'm using a python library named "ImageAI" and it use "Keras" and "Tensorflow" and use Darknet layers.
 
